@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/timestampValue"
+            android:layout_column="1"/>
+        <TextView
+            android:id="@+id/stressValue"
+            android:layout_column="2"/>
+    </TableRow>
+
+</TableLayout>
